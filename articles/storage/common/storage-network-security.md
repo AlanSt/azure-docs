@@ -353,6 +353,9 @@ az storage account update --resource-group "myresourcegroup" --name "mystorageac
 > Be sure to [set the default rule](#change-the-default-network-access-rule) to Deny, or removing exceptions will have no effect.
 >
 
+## ARM template support
+Storage endpoints can also be created through the use of Azure ARM templates.  [Learn more about endpoints with ARM templates](https://azure.microsoft.com/en-us/resources/templates/201-vnet-2subnets-service-endpoints-storage-integration/).
+
 ## Next steps
 Learn more about Azure Network Service Endpoints in [Service Endpoints](/azure/virtual-network/virtual-network-service-endpoints-overview).
 
